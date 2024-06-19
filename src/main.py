@@ -1,6 +1,9 @@
 from textnode import TextNode
-from htmlnode import HTMLNode
-from leafnode import LeafNode
 
-text_node_obj = ('This is a text node', 'bold',' https://www.boot.dev')
-print(text_node_obj)
+
+def main():
+    node = TextNode("This is a text node", "bold", "https://www.boot.dev")
+    print(node)
+
+
+main()
